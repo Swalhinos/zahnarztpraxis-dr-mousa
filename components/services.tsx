@@ -2,18 +2,21 @@
 
 import { useLanguage } from '@/lib/language-context'
 import {
+  BridgesIcon,
   CleaningIcon,
-  CrownIcon,
+  FillingsIcon,
   ImplantIcon,
-  ShieldIcon,
   SurgeryIcon,
   WhiteningIcon,
 } from '@/components/service-icons'
 
-// One consistent icon system for all services: the shared inline-SVG
-// family in components/service-icons.tsx (24 viewBox, 2px stroke,
-// currentColor) — no raster icons, no emoji, no icon fonts.
-const icons = [SurgeryIcon, ImplantIcon, CrownIcon, ShieldIcon, WhiteningIcon, CleaningIcon]
+// One consistent icon system for all services: the duotone inline-SVG
+// family in components/service-icons.tsx (48 viewBox, navy outline with
+// flat blue fills) — no raster icons, no emoji, no icon fonts. Order
+// matches the services in lib/translations.ts: Oralchirurgie,
+// Implantologie, Zahnersatz, Zahnerhaltung & Füllungen, Ästhetik,
+// Prophylaxe & Zahnreinigung.
+const icons = [SurgeryIcon, ImplantIcon, BridgesIcon, FillingsIcon, WhiteningIcon, CleaningIcon]
 
 export function Services() {
   const { t } = useLanguage()

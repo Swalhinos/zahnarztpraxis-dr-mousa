@@ -109,6 +109,17 @@ export function SiteFooter() {
       <div className="border-t border-navy-foreground/10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-4 py-5 text-center text-xs text-navy-foreground/50 sm:flex-row sm:text-left lg:px-6">
           <span>{`© ${new Date().getFullYear()} ${CLINIC.name}. ${t.footer.rights}`}</span>
+          <span>
+            Icons by{' '}
+            <a
+              href="https://www.flaticon.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-primary"
+            >
+              Flaticon
+            </a>
+          </span>
           <span className="flex gap-5">
             <a href="/impressum.html" className="transition-colors hover:text-primary">
               {t.footer.impressum}

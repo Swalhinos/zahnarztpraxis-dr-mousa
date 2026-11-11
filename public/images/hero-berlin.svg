@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Modern dental practice interior in Berlin with a view of the Fernsehturm">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF6FD"/>
+      <stop offset="1" stop-color="#D8EDFA"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BDE6FC"/>
+      <stop offset="0.7" stop-color="#E8F7FF"/>
+      <stop offset="1" stop-color="#F4FBFF"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3E9D7"/>
+      <stop offset="1" stop-color="#E7D9BE"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4FC3F7"/>
+      <stop offset="1" stop-color="#14273D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- room -->
+  <rect width="1600" height="760" fill="url(#wall)"/>
+  <rect y="760" width="1600" height="240" fill="url(#floor)"/>
+  <ellipse cx="620" cy="905" rx="430" ry="42" fill="#14273D" opacity="0.10"/>
+
+  <!-- window with Berlin skyline -->
+  <g>
+    <rect x="905" y="90" width="600" height="600" rx="18" fill="url(#sky)" stroke="#FFFFFF" stroke-width="14"/>
+    <rect x="905" y="90" width="600" height="600" rx="18" fill="none" stroke="#B9D9EC" stroke-width="3"/>
+    <line x1="1205" y1="90" x2="1205" y2="690" stroke="#FFFFFF" stroke-width="10"/>
+    <line x1="905" y1="390" x2="1505" y2="390" stroke="#FFFFFF" stroke-width="10"/>
+    <!-- skyline -->
+    <g fill="#9CC8E4">
+      <rect x="930" y="520" width="90" height="170"/>
+      <rect x="1030" y="470" width="70" height="220"/>
+      <rect x="1330" y="500" width="80" height="190"/>
+      <rect x="1420" y="545" width="70" height="145"/>
+    </g>
+    <g fill="#6FA8CC">
+      <rect x="955" y="560" width="110" height="130"/>
+      <rect x="1380" y="560" width="125" height="130"/>
+    </g>
+    <!-- Fernsehturm -->
+    <g>
+      <path d="M1248 690 L1268 300 L1276 300 L1296 690 Z" fill="#5B93BC"/>
+      <circle cx="1272" cy="272" r="42" fill="#5B93BC"/>
+      <rect x="1269" y="150" width="6" height="86" fill="#5B93BC"/>
+      <circle cx="1272" cy="272" r="42" fill="#FFFFFF" opacity="0.12"/>
+    </g>
+    <circle cx="985" cy="180" r="40" fill="#FFE9A8"/>
+    <circle cx="985" cy="180" r="58" fill="#FFE9A8" opacity="0.35"/>
+  </g>
+
+  <!-- pendant lamps -->
+  <g stroke="#14273D" stroke-width="5">
+    <line x1="330" y1="0" x2="330" y2="105"/>
+    <line x1="520" y1="0" x2="520" y2="80"/>
+  </g>
+  <path d="M285 150 L375 150 L352 100 L308 100 Z" fill="#14273D"/>
+  <circle cx="330" cy="158" r="10" fill="#FFD66B"/>
+  <path d="M478 122 L562 122 L542 76 L498 76 Z" fill="#4FC3F7"/>
+  <circle cx="520" cy="130" r="9" fill="#FFD66B"/>
+
+  <!-- wall art: tooth line drawing -->
+  <g>
+    <rect x="120" y="200" width="210" height="260" rx="14" fill="#FFFFFF" stroke="#C7E3F4" stroke-width="4"/>
+    <path d="M225 258 C196 236 152 252 156 300 C158 330 176 344 180 378 C183 404 192 424 206 424 C222 424 220 396 225 396 C230 396 228 424 244 424 C258 424 267 404 270 378 C274 344 292 330 294 300 C298 252 254 236 225 258 Z" fill="none" stroke="#2E6E9E" stroke-width="7" stroke-linejoin="round"/>
+  </g>
+
+  <!-- cabinet + plant -->
+  <g>
+    <rect x="96" y="600" width="330" height="120" rx="12" fill="#FFFFFF"/>
+    <rect x="96" y="600" width="330" height="18" rx="9" fill="#BFE3F7"/>
+    <line x1="261" y1="618" x2="261" y2="720" stroke="#DCEBF5" stroke-width="5"/>
+    <rect x="150" y="540" width="86" height="62" rx="8" fill="#EAF6FD" stroke="#C7E3F4" stroke-width="4"/>
+    <path d="M193 512 C186 492 172 484 158 486 C162 504 174 514 190 516 C178 506 176 492 184 480 C194 492 196 502 193 512 Z" fill="#57B26A"/>
+    <path d="M193 512 C200 494 212 486 226 488 C222 506 210 514 196 516 C206 506 208 494 202 482 C194 492 192 502 193 512 Z" fill="#3E9B52"/>
+    <rect x="300" y="548" width="70" height="54" rx="27" fill="url(#brand)"/>
+    <path d="M335 560 C324 552 306 558 307 574 C308 586 315 590 316 602 L354 602 C355 590 362 586 363 574 C364 558 346 552 335 560 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- dental chair -->
+  <g>
+    <!-- base -->
+    <path d="M566 734 L694 734 L676 872 L584 872 Z" fill="#14273D"/>
+    <rect x="540" y="866" width="180" height="18" rx="9" fill="#0E1C2C"/>
+    <!-- seat + leg rest -->
+    <path d="M430 690 C420 716 448 738 486 740 L700 748 C740 748 762 726 756 700 L748 668 C742 644 716 634 690 638 L520 660 C478 665 442 664 430 690 Z" fill="#2E6E9E"/>
+    <path d="M438 686 C452 664 500 656 560 652 L700 642 C726 640 742 650 746 668 L750 692 C720 700 640 706 545 704 C480 702 446 700 438 686 Z" fill="#FFFFFF"/>
+    <!-- backrest -->
+    <path d="M700 640 C760 636 800 560 812 470 C818 424 800 396 772 398 C736 400 706 470 692 540 C684 582 686 622 700 640 Z" fill="#2E6E9E"/>
+    <path d="M706 622 C742 610 776 540 786 468 C790 436 782 416 766 416 C738 418 714 486 704 544 C698 580 698 606 706 622 Z" fill="#FFFFFF"/>
+    <!-- headrest -->
+    <rect x="742" y="352" width="86" height="58" rx="20" transform="rotate(14 785 381)" fill="#14273D"/>
+    <!-- armrest -->
+    <path d="M596 636 C640 622 690 624 716 640" fill="none" stroke="#14273D" stroke-width="14" stroke-linecap="round"/>
+    <!-- delivery arm + lamp -->
+    <path d="M852 690 L852 470 C852 430 830 420 806 408" fill="none" stroke="#8FA9BC" stroke-width="12" stroke-linecap="round"/>
+    <g transform="rotate(24 800 402)">
+      <rect x="752" y="382" width="96" height="42" rx="21" fill="#14273D"/>
+      <rect x="770" y="392" width="60" height="10" rx="5" fill="#FFD66B"/>
+    </g>
+    <!-- stool -->
+    <circle cx="905" cy="742" r="40" fill="#4FC3F7"/>
+    <rect x="898" y="742" width="14" height="86" fill="#8FA9BC"/>
+    <path d="M862 856 L948 856" stroke="#14273D" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- rug -->
+  <ellipse cx="640" cy="918" rx="520" ry="34" fill="#FFFFFF" opacity="0.35"/>
+</svg>

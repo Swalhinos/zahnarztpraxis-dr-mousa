@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Praxis Dr. Safwan Mousa — Logo">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4FC3F7"/>
+      <stop offset="1" stop-color="#14273D"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="url(#lg)"/>
+  <path d="M60 26 C46 15 22 24 24 46 C25 62 35 67 37 82 C38 93 42 100 49 100 C57 100 56 88 60 88 C64 88 63 100 71 100 C78 100 82 93 83 82 C85 67 95 62 96 46 C98 24 74 15 60 26 Z" fill="#FFFFFF"/>
+  <path d="M42 106 C52 111 68 111 78 106" fill="none" stroke="#4FC3F7" stroke-width="5" stroke-linecap="round" opacity="0.9"/>
+</svg>

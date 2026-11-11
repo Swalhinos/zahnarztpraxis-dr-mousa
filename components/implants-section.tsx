@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button'
 import { useLanguage } from '@/lib/language-context'
 import { CLINIC } from '@/lib/translations'
 import { WhatsAppIcon } from '@/components/whatsapp-icon'
-import { ImplantIcon } from '@/components/service-icons'
 
 export function ImplantsSection() {
   const { t } = useLanguage()
@@ -31,10 +30,19 @@ export function ImplantsSection() {
             {t.implants.cta}
           </Button>
         </div>
-        <div className="relative flex items-center justify-center overflow-hidden rounded-3xl bg-gradient-to-br from-sky-soft via-background to-primary/25 p-12">
-          <div className="absolute -right-10 -top-10 size-44 rounded-full bg-primary/15" aria-hidden="true" />
-          <div className="absolute -bottom-14 -left-14 size-56 rounded-full bg-navy/10" aria-hidden="true" />
-          <ImplantIcon className="relative h-48 w-48 text-navy md:h-64 md:w-64" />
+        <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-xl ring-1 ring-border">
+          <img
+            src="/images/practice-lab.jpg"
+            alt={t.implants.title}
+            width={750}
+            height={1000}
+            loading="lazy"
+            className="absolute inset-0 h-full w-full object-cover object-[50%_55%]"
+          />
+          <div
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-navy/20 via-transparent to-transparent"
+            aria-hidden="true"
+          />
         </div>
       </div>
     </section>
